@@ -84,7 +84,8 @@ def main():
     sp.scatter(
         positions[0, :], positions[1, :], c=path_colors, edgecolor="None", s=2)
     sp.set_aspect("equal")
-    fig.show()
+    sp.margins(0)
+    plt.show()
 
 
 if __name__ == "__main__":
