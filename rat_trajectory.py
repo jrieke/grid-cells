@@ -86,4 +86,6 @@ def main():
     sp.set_aspect("equal")
     fig.show()
 
-main()
+
+if __name__ == "__main__":
+    main()
